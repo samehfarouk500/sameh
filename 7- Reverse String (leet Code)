@@ -1,0 +1,14 @@
+//1-Change the number to a string for easy manipulation 
+//2-Split the string by (,)
+//3-reverse the string 
+//Join back the string 
+
+
+var reverse = function(num) {
+ 
+  let str = num.toString().split('').reverse().join('')
+    
+    console.log(str)
+};
+
+reverse(123456789)
