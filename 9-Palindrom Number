@@ -1,0 +1,15 @@
+var isNumberPaindrome = function(num) {
+ 
+  let maybePalNumber =Number( num.toString().split('').reverse().join(''))
+  
+    
+    if(maybePalNumber===num) {
+    console.log(`${num} is a palindrom number`)
+    } else{
+    console.log(`${num} is not a palindrom number`)
+    }
+
+};
+
+isNumberPaindrome(123431)
+
